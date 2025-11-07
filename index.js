@@ -39,3 +39,10 @@ function guestScoreThree() {
   guestDisplay.textContent = guestScore;
   console.log(guestDisplay.textContent);
 }
+
+function reset() {
+  homeScore = 0;
+  guestScore = 0;
+  homeDisplay.textContext = homeScore;
+  guestDisplay.textContent = guestScore;
+}
